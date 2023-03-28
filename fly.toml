@@ -1,0 +1,8 @@
+# fly.toml file generated for summer-wildflower-8273 on 2023-03-28T16:57:03-06:00
+
+app = "summer-wildflower-8273"
+kill_timeout = 0
+primary_region = "mia"
+
+[env]
+  PORT = "8080"
