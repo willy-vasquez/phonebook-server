@@ -36,5 +36,6 @@ module.exports = {
       'error', { 'before': true, 'after': true }
     ],
     'no-console': 0,
+    'no-undef': 0,
   }
 };

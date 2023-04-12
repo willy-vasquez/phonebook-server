@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
-const process = require('process');
+const config = require('./config');
 
 mongoose.set('strictQuery', false);
 
-let url = process.env.MONGO_URI;
-const password = process.env.MONGO_PWD;
+let url = config.MONGO_URL;
+const password = config.MONGO_PASSWD;
 url = url.replace('MONGO_PASSWORD', password);
 console.log('connecting to MongoDB');
 
