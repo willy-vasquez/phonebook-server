@@ -5,6 +5,7 @@ mongoose.set('strictQuery', false);
 
 let url = config.MONGO_URL;
 const password = config.MONGO_PASSWD;
+console.log(url, password);
 url = url.replace('MONGO_PASSWORD', password);
 console.log('connecting to MongoDB');
 
